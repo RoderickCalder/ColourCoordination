@@ -1,7 +1,21 @@
-﻿@{
-    ViewData["Title"] = "About";
+﻿@using ColourCoordination.Controllers
+@{
+    Layout = "~/Views/shared/_Layout.cshtml";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+@model ColourCoordination.Models.Outfit
 
-<p>Use this area to provide additional information.</p>
+<div class="colour-content">
+    <form action="@(Url.Action("PostSetShirtColor"))" method="post">
+        <img src="https://ficardo-weddings.com/images/tshirt-drawing/white-t-shirt-essential.jpg" />
+        <select>
+            <option name="@Html.NameFor(x => x.ShirtColor)" value="red">Red</option>
+            <option name="@Html.NameFor(x => x.ShirtColor)" value="green">Gren</option>
+            <option name="@Html.NameFor(x => x.ShirtColor)" value="blue">Bloo</option>
+            <option name="@Html.NameFor(x => x.ShirtColor)" value="yellow">Yell-o</option>
+            <option name="@Html.NameFor(x => x.ShirtColor)" value="orange">Oranj</option>
+            <option name="@Html.NameFor(x => x.ShirtColor)" value="purple">Prupul</option>
+        </select>
+        
+        <input type="submit" value="El Clicko">
+    </form>
+</div>

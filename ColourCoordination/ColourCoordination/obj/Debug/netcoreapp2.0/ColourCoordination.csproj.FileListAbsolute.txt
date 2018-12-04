@@ -9,3 +9,13 @@ C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\net
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.AssemblyInfo.cs
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.dll
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.pdb
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\netcoreapp2.0\ColourCoordination.deps.json
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\netcoreapp2.0\ColourCoordination.runtimeconfig.json
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\netcoreapp2.0\ColourCoordination.runtimeconfig.dev.json
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\netcoreapp2.0\ColourCoordination.dll
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\netcoreapp2.0\ColourCoordination.pdb
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.csproj.CoreCompileInputs.cache
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.AssemblyInfoInputs.cache
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.AssemblyInfo.cs
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.dll
+C:\Code\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.pdb

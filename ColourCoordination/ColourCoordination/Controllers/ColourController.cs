@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ColourCoordination.Models;
 using Microsoft.AspNetCore.Mvc;
-using ColourCoordination.Models;
 
 namespace ColourCoordination.Controllers
 {
@@ -14,50 +9,42 @@ namespace ColourCoordination.Controllers
         [Route("set-shirt")]
         public IActionResult GetSetShirtColor()
         {
-
+            return View("SetShirtColour");
         }
 
         [HttpPost]
         [Route("set-shirt")]
         public IActionResult PostSetShirtColor(Outfit outfit)
         {
-
+            return View("SetShirtColour", outfit);
         }
 
         [HttpGet]
         [Route("set-pants")]
         public IActionResult GetSetPantsColor()
         {
-
+            return View("SetPantsColour");
         }
 
         [HttpPost]
         [Route("set-pants")]
         public IActionResult PostSetPantsColor(Outfit outfit)
         {
-
+            return View("SetPantsColour", outfit);
         }
 
         [HttpGet]
         [Route("set-shoes")]
         public IActionResult GetSetShoeColor()
         {
-
+            return View("SetShoesColour");
         }
 
         [HttpPost]
         [Route("set-shoes")]
         public IActionResult PostSetShoeColor(Outfit outfit)
         {
-
+            return View("SetShoesColour", outfit);
         }
     }
-
-    public class Outfit
-    {
-        public string ShirtColor { get; set; }
-        public string PantsColor { get; set; }
-        public string ShoeColor { get; set; }
-    }
-
 }
