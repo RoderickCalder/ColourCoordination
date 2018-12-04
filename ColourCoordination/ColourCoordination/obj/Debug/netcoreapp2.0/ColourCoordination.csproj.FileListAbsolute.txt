@@ -3,7 +3,6 @@ C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\net
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\netcoreapp2.0\ColourCoordination.runtimeconfig.dev.json
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\netcoreapp2.0\ColourCoordination.dll
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\bin\Debug\netcoreapp2.0\ColourCoordination.pdb
-C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.csprojAssemblyReference.cache
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.csproj.CoreCompileInputs.cache
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.AssemblyInfoInputs.cache
 C:\Source\ColourCoordination\ColourCoordination\ColourCoordination\obj\Debug\netcoreapp2.0\ColourCoordination.AssemblyInfo.cs

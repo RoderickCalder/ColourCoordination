@@ -6,6 +6,13 @@ namespace ColourCoordination.Controllers
     public class ColourController : Controller
     {
         [HttpGet]
+        [Route("/")]
+        public IActionResult Index()
+        {
+            return View("Index");
+        }
+
+        [HttpGet]
         [Route("set-shirt")]
         public IActionResult GetSetShirtColor()
         {
