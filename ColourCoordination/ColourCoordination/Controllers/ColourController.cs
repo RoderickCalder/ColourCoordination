@@ -7,9 +7,9 @@ namespace ColourCoordination.Controllers
     {
         [HttpGet]
         [Route("/")]
-        public IActionResult Index()
+        public IActionResult Index(Outfit outfit)
         {
-            return View("Index");
+            return View("Index", outfit);
         }
 
         [HttpGet]
@@ -23,7 +23,7 @@ namespace ColourCoordination.Controllers
         [Route("set-shirt")]
         public IActionResult PostSetShirtColor(Outfit outfit)
         {
-            return View("SetShirtColour", outfit);
+            return Index(outfit);
         }
 
         [HttpGet]
@@ -37,7 +37,7 @@ namespace ColourCoordination.Controllers
         [Route("set-pants")]
         public IActionResult PostSetPantsColor(Outfit outfit)
         {
-            return View("SetPantsColour", outfit);
+            return Index(outfit);
         }
 
         [HttpGet]
@@ -51,7 +51,7 @@ namespace ColourCoordination.Controllers
         [Route("set-shoes")]
         public IActionResult PostSetShoeColor(Outfit outfit)
         {
-            return View("SetShoesColour", outfit);
+            return Index(outfit);
         }
     }
 }

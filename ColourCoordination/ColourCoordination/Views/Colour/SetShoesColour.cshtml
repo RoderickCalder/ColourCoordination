@@ -2,6 +2,20 @@
     Layout = "~/Views/shared/_Layout.cshtml";
 }
 
-<div class="colour-content">
+@model ColourCoordination.Models.Outfit
 
+<div class="colour-content">
+    <form action="@(Url.Action("PostSetShoeColor"))" method="post">
+        <img src="https://ficardo-weddings.com/images/tshirt-drawing/white-t-shirt-essential.jpg" />
+        <select name="@Html.NameFor(x => x.ShoeColor)">
+            <option value="red">Red</option>
+            <option value="green">Gren</option>
+            <option value="blue">Bloo</option>
+            <option value="yellow">Yell-o</option>
+            <option value="orange">Oranj</option>
+            <option value="purple">Prupul</option>
+        </select>
+        
+        <input type="submit" value="El Clicko">
+    </form>
 </div>
